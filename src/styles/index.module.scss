@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Glegoo;
+    src: url(../fonts/Glegoo/Glegoo-Regular.ttf)
+}
+
+.main{
+    font-family: Glegoo;
+    background-color: #0c4a6e;
+}
+
+.container{
+    display: grid;
+    margin: 0px;
+    height: 100vh;
+    max-width: 1500px;
+    margin-left: calc(50% - 750px);
+}
+
+.containerLeft{
+    font-size: 200px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    padding: 50px;
+    background-color: #0c4a6e;
+    color: #d1fae5;
+    font-weight: bold;
+
+    .nav{
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        column-gap: 50px;
+        text-align: right;
+    }
+}
+
+@media (max-width: 1500px) {
+    .containerLeft{
+        font-size: 100px;
+    }
+
+    .container{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+        text-align: center !important;
+    }
+
+    .containerLeft{
+        font-size: 50px !important;
+    }
+}
