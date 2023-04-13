@@ -34,8 +34,15 @@
 
 .workTile{
     height: 640px;
-    border: 2px solid black;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    box-shadow: 5px 5px 5px #cbd5e1;
+
+    :hover{
+        transform: translate(0,-5px);
+    }
 }
 
 
