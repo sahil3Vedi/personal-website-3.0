@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import IndexStyles from '../styles/index.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +15,7 @@ export default function Home() {
       <div className={IndexStyles.container}>
         <div className={IndexStyles.containerLeft}>
           <div className={IndexStyles.navbar}>
-            <div><p className={IndexStyles.nav}>Work</p></div>
+            <div><Link href="/work"><p className={IndexStyles.nav}>Work</p></Link></div>
             <div><p className={IndexStyles.nav}>Contact</p></div>
           </div>
           <div></div>
