@@ -20,7 +20,7 @@ export default function PolygonPage1(){
                 marginBottom:"-27%",
                 marginLeft:"56%"
             }}/>
-            <div style={{marginTop:"20rem",marginLeft:"9.5rem"}}>
+            <div className={styles.titleTextDiv}>
                 <p className={styles.titleTop}>The next chapter in</p>
                 <p className={styles.title}>Ethereum<br/>Scaling</p>
             </div>
