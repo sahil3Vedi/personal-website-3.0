@@ -23,6 +23,7 @@
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 20px;
+    z-index: 5;
 }
 
 .work{
@@ -39,10 +40,7 @@
     grid-template-columns: 1fr;
     grid-template-columns: 1fr;
     box-shadow: 5px 5px 5px #cbd5e1;
-
-    :hover{
-        transform: translate(0,-5px);
-    }
+    cursor: pointer;
 }
 
 

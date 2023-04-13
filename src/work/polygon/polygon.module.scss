@@ -1,0 +1,26 @@
+@font-face{
+    font-family: Faster;
+    src: url(../../fonts/FasterOne/FasterOne-Regular.ttf)
+}
+
+@font-face {
+    font-family: Emblema;
+    src: url(../../fonts/EmblemaOne/EmblemaOne-Regular.ttf);
+}
+
+.main{
+    color: white;
+    background-color: #6D28D9;
+}
+
+.title{
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: Faster;
+}
+
+.titleTop{
+    font-size: 1rem;
+    font-family: Emblema;
+    font-weight: bold;
+}
