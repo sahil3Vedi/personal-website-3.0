@@ -1,0 +1,37 @@
+@font-face{
+    font-family: Inknut;
+    src: url(../../fonts/InknutAntiqua/InknutAntiqua-Regular.ttf)
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 0.83fr 0.17fr;
+    background-color: #BE123C;
+}
+
+.mainRight{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.mainLeft{
+    font-family: Inknut;
+    font-size: 2rem;
+    line-height: 5rem;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 550px) {
+    .mainLeft{
+        font-size: 1.5rem;
+        line-height: 3.75rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainLeft{
+        font-size: 0.9rem;
+        line-height: 2.25rem;
+    }
+}
