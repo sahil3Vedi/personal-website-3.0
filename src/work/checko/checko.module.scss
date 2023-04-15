@@ -1,0 +1,43 @@
+@font-face{
+    font-family: Jetbrains;
+    src: url(../../fonts/JetbrainsMono/static/JetBrainsMono-Regular.ttf)
+}
+
+.mainTitle{
+    font-family: Jetbrains;
+    color: white;
+    text-align: right;
+    padding: 20px;
+
+}
+
+.mainHeading{
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.mainSubheading{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    .mainHeading{
+        font-size: 2.66rem;
+    }
+
+    .mainSubheading{
+        font-size: 1.33rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainHeading{
+        font-size: 1.76rem;
+    }
+
+    .mainSubheading{
+        font-size: 0.88rem;
+    }
+}
