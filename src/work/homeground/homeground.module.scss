@@ -1,0 +1,51 @@
+@font-face{
+    font-family: Manjari;
+    src: url(../../fonts/Manjari/Manjari-Regular.ttf)
+}
+
+.main{
+    font-family: Manjari;
+    background-color:#FB923C;
+    display: grid;
+    grid-template-rows: 40% 1fr;
+}
+
+.mainGraphic{
+    display: grid;
+    grid-template-columns: 1fr 56.57%;
+}
+
+.graphicCircle{
+    border-radius: 50%;
+    border: 4rem solid #EF4444; 
+}
+
+.mainTitle{
+    background-color:#ea580c;
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media (max-width: 550px) {
+    .graphicCircle{
+        border-width: 2.66rem;
+    }
+
+    .mainTitle{
+        font-size: 1.65rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .graphicCircle{
+        border-width: 1.76rem;
+    }
+
+    .mainTitle{
+        font-size: 1.09rem;
+    }
+}

@@ -3,7 +3,7 @@ import styles from './checko.module.scss'
 export default function CheckoPage1(){
     return (
         <main style={{
-            backgroundImage:"url(https://i.pinimg.com/564x/63/3b/15/633b15b8f4a2e026b209616df2ced966.jpg)",
+            backgroundImage:"url(https://i.pinimg.com/564x/96/ff/de/96ffde67a848bdef58e1721b7206c041.jpg)",
             backgroundSize:"100% 100%"
             }}>
             <div className={styles.mainTitle}>
